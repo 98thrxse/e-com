@@ -1,6 +1,6 @@
 <button id="create" type="button" onclick="setAction(this)" class="btn btn-success m-3" data-bs-toggle="modal" data-bs-target="#actionModal">
     <i class="fa-regular fa-square-plus"></i>
-    Create
+    Створити
 </button>
 
 <div class="table-responsive">
