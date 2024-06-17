@@ -1,0 +1,6 @@
+.background {
+    background-image: url(../images/background.png);
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.05;
+}

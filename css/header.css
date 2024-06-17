@@ -1,0 +1,25 @@
+@keyframes rotateRight360 {
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes rotateLeft360 {
+    0% { 
+        transform: rotate(360deg); 
+    }
+    100% { 
+        transform: rotate(0deg); 
+    }
+}
+
+.navbar-brand:hover .fa-floppy-disk {
+    animation: rotateRight360 0.7s;
+}
+
+.fa-floppy-disk {
+    animation: rotateLeft360 0.7s;
+}
